@@ -9,7 +9,7 @@ Welcome to my personal developer portfolio — a creative, modern, and responsiv
 ## 🛠️ Built With
 
 - React.js
-- Tailwind CSS / CSS
+- CSS
 - Framer Motion
 - JavaScript / HTML
 - Figma (for UI/UX planning)
