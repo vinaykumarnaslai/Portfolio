@@ -1,0 +1,74 @@
+.custom-cursor {
+  position: fixed;
+  width: 24px;
+  height: 24px;
+  background: radial-gradient(circle, #ff4136, #ffdc00);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+  box-shadow: 0 0 20px rgba(255, 65, 54, 0.6), 0 0 40px rgba(255, 220, 0, 0.4), inset 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.cursor-ring {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  border: 2px solid transparent;
+  background: linear-gradient(45deg, rgba(255, 220, 0, 0.5), rgba(255, 65, 54, 0.5)) border-box;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9998;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+}
+
+.cursor-glow {
+  position: fixed;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(255, 65, 54, 0.2), rgba(255, 220, 0, 0.1), transparent);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9997;
+  filter: blur(10px);
+}
+
+.cursor-trail {
+  position: fixed;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9996;
+  box-shadow: 0 0 10px currentColor;
+}
+
+.cursor-particle {
+  position: fixed;
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9995;
+  box-shadow: 0 0 10px currentColor;
+  filter: blur(0.5px);
+}
+
+@media (max-width: 768px) {
+  .custom-cursor,
+  .cursor-ring,
+  .cursor-glow,
+  .cursor-trail,
+  .cursor-particle {
+    display: none;
+  }
+}
+
+@media (hover: none) {
+  .custom-cursor,
+  .cursor-ring,
+  .cursor-glow,
+  .cursor-trail,
+  .cursor-particle {
+    display: none;
+  }
+}
