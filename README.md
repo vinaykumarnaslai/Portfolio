@@ -1,4 +1,4 @@
-# Portfolio
+# 🧑‍💻 Portfolio – Vinay Kumar Naslai
 
 Welcome to my personal developer portfolio — a creative, modern, and responsive website showcasing my skills, projects, and journey as a full-stack developer and AI enthusiast.
 
@@ -23,6 +23,7 @@ Welcome to my personal developer portfolio — a creative, modern, and responsiv
 - 📬 Contact form (optional integration with EmailJS / Formspree)
 
 ## 📂 Project Structure
+
 
 portfolio/
 ├── public/
