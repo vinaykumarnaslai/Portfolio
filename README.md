@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -71,12 +72,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
 # Portfolio
+=======
+# 🧑‍💻 Portfolio – Vinay Kumar Naslai
+>>>>>>> 3933a84567764fc89fc12c7d7e256aed33cfc7e7
 
 Welcome to my personal developer portfolio — a creative, modern, and responsive website showcasing my skills, projects, and journey as a full-stack developer and AI enthusiast.
-
-## 🚀 Live Demo
-
-🌐 [Visit Portfolio](https://your-portfolio-link.com)
 
 ## 🛠️ Built With
 
@@ -95,6 +95,7 @@ Welcome to my personal developer portfolio — a creative, modern, and responsiv
 - 📬 Contact form (optional integration with EmailJS / Formspree)
 
 ## 📂 Project Structure
+
 
 portfolio/
 ├── public/
