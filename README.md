@@ -2,10 +2,6 @@
 
 Welcome to my personal developer portfolio — a creative, modern, and responsive website showcasing my skills, projects, and journey as a full-stack developer and AI enthusiast.
 
-## 🚀 Live Demo
-
-🌐 [Visit Portfolio](https://your-portfolio-link.com)
-
 ## 🛠️ Built With
 
 - React.js
